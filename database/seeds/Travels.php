@@ -12,7 +12,7 @@ class Travels extends Seeder
      * @return void
      */
     public function run (Faker $faker)
-    {
+    {  
         for ($i=0; $i <20 ; $i++) { 
             $travel = new Travel();
             $travel->luogo =$faker->word(1); 
